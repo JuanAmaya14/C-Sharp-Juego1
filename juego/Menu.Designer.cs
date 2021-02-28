@@ -32,6 +32,7 @@ namespace juego
             this.B_Jugar = new System.Windows.Forms.Button();
             this.B_Acerca_De = new System.Windows.Forms.Button();
             this.B_como_jugar = new System.Windows.Forms.Button();
+            this.Salir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // B_Jugar
@@ -42,6 +43,7 @@ namespace juego
             this.B_Jugar.TabIndex = 0;
             this.B_Jugar.Text = "Jugar";
             this.B_Jugar.UseVisualStyleBackColor = true;
+            this.B_Jugar.Click += new System.EventHandler(this.B_Jugar_Click);
             // 
             // B_Acerca_De
             // 
@@ -63,18 +65,29 @@ namespace juego
             this.B_como_jugar.UseVisualStyleBackColor = true;
             this.B_como_jugar.Click += new System.EventHandler(this.B_como_jugar_Click);
             // 
+            // Salir
+            // 
+            this.Salir.Location = new System.Drawing.Point(12, 12);
+            this.Salir.Name = "Salir";
+            this.Salir.Size = new System.Drawing.Size(75, 23);
+            this.Salir.TabIndex = 3;
+            this.Salir.Text = "Salir";
+            this.Salir.UseVisualStyleBackColor = true;
+            this.Salir.Click += new System.EventHandler(this.Salir_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Salir);
             this.Controls.Add(this.B_como_jugar);
             this.Controls.Add(this.B_Acerca_De);
             this.Controls.Add(this.B_Jugar);
             this.MaximizeBox = false;
             this.Name = "Menu";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
             this.ResumeLayout(false);
 
@@ -85,6 +98,7 @@ namespace juego
         private System.Windows.Forms.Button B_Jugar;
         private System.Windows.Forms.Button B_Acerca_De;
         private System.Windows.Forms.Button B_como_jugar;
+        private System.Windows.Forms.Button Salir;
     }
 }
 

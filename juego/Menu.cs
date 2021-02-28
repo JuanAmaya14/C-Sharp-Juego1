@@ -30,7 +30,7 @@ namespace juego
             Form ME = new Menu();
 
             AD.Show();
-            ME.Close();
+            this.Hide();
 
 
         }
@@ -41,7 +41,21 @@ namespace juego
             Form ME = new Menu();
 
             CJ.Show();
-            ME.Close();
+            this.Hide();
+        }
+
+        private void B_Jugar_Click(object sender, EventArgs e)
+        {
+            Form Pl = new Play();
+            Pl.Show();
+
+            this.Hide();
+            
+        }
+
+        private void Salir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

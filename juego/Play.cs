@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace juego
 {
-    public partial class Acerca_De : Form
+    public partial class Play : Form
     {
-        public Acerca_De()
+        public Play()
         {
             InitializeComponent();
-        }
-
-        private void A_Acerca_de_Click(object sender, EventArgs e)
-        {
-            Form Me = new Menu();
-
-            Me.Show();
-
-            this.Hide();
-
         }
     }
 }

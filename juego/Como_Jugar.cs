@@ -16,5 +16,14 @@ namespace juego
         {
             InitializeComponent();
         }
+
+        private void A_ins_Click(object sender, EventArgs e)
+        {
+            Form Me = new Menu();
+
+            Me.Show();
+
+            this.Hide();
+        }
     }
 }

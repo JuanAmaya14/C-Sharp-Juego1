@@ -1,7 +1,7 @@
 ﻿
 namespace juego
 {
-    partial class Acerca_De
+    partial class Play
     {
         /// <summary>
         /// Required designer variable.
@@ -29,36 +29,38 @@ namespace juego
         /// </summary>
         private void InitializeComponent()
         {
-            this.A_Acerca_de = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Play));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // A_Acerca_de
+            // pictureBox1
             // 
-            this.A_Acerca_de.Location = new System.Drawing.Point(12, 12);
-            this.A_Acerca_de.Name = "A_Acerca_de";
-            this.A_Acerca_de.Size = new System.Drawing.Size(189, 77);
-            this.A_Acerca_de.TabIndex = 0;
-            this.A_Acerca_de.Text = "Atras";
-            this.A_Acerca_de.UseVisualStyleBackColor = true;
-            this.A_Acerca_de.Click += new System.EventHandler(this.A_Acerca_de_Click);
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 366);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(801, 88);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // Acerca_De
+            // Play
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.A_Acerca_de);
+            this.Controls.Add(this.pictureBox1);
             this.MaximizeBox = false;
-            this.Name = "Acerca_De";
+            this.Name = "Play";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Acerca De";
+            this.Text = "Play";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button A_Acerca_de;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
