@@ -37,9 +37,9 @@ namespace juego
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 366);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 361);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(801, 88);
+            this.pictureBox1.Size = new System.Drawing.Size(801, 93);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
