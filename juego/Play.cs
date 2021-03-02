@@ -21,27 +21,27 @@ namespace juego
         {
 
             if (e.KeyData == Keys.A)
-             {
-                 Per.Location = new Point(Per.Location.X - 10);
-             }
+            {
+                Per.Location = new Point(Per.Location.X - 10, Per.Location.Y);
+            }
 
             if (e.KeyData == Keys.D)
-             {
-                 Per.Location = new Point(Per.Location.X + 10);
-             }
+            {
+                Per.Location = new Point(Per.Location.X + 10, Per.Location.Y);
+            }
 
             ///////////////////////////////////////
 
             if (e.KeyData == Keys.W)
             {
-                Per.Location = new Point(Per.Location.Y + 10);
+                Per.Location = new Point(Per.Location.X, Per.Location.Y - 10);
 
             }
 
 
             if (e.KeyData == Keys.S)
             {
-                Per.Location = new Point(Per.Location.Y - 10);
+                Per.Location = new Point(Per.Location.X, Per.Location.Y + 10);
             }
 
         }
