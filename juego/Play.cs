@@ -12,13 +12,18 @@ namespace juego
 {
     public partial class Play : Form
     {
+
+        
+
         public Play()
         {
             InitializeComponent();
+
         }
 
         private void Botones(object sender, KeyEventArgs e)
         {
+
 
             if (e.KeyData == Keys.A)
             {
@@ -32,17 +37,20 @@ namespace juego
 
             ///////////////////////////////////////
 
-            if (e.KeyData == Keys.W)
+           
+            if (e.KeyCode == Keys.W)
             {
-                Per.Location = new Point(Per.Location.X, Per.Location.Y - 10);
 
+                    Per.Location = new Point(Per.Location.X, 207);
+                
             }
 
+            /*  if (e.KeyData == Keys.W)
+              {
+                  Per.Location = new Point(Per.Location.X, Per.Location.Y - 10);
 
-            if (e.KeyData == Keys.S)
-            {
-                Per.Location = new Point(Per.Location.X, Per.Location.Y + 10);
-            }
+              }*/
+
 
         }
 
@@ -58,7 +66,9 @@ namespace juego
         {
             Application.Exit();
         }
-
-        
+       
+      
     }
 }
+        
+

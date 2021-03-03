@@ -29,29 +29,30 @@ namespace juego
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.PictureBox Piso;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Play));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Per = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.volverAlMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            Piso = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(Piso)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // Piso
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 361);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(801, 93);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            Piso.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Piso.BackgroundImage")));
+            Piso.Location = new System.Drawing.Point(0, 361);
+            Piso.Name = "Piso";
+            Piso.Size = new System.Drawing.Size(801, 93);
+            Piso.TabIndex = 0;
+            Piso.TabStop = false;
             // 
             // Per
             // 
             this.Per.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Per.Location = new System.Drawing.Point(25, 292);
+            this.Per.Location = new System.Drawing.Point(29, 300);
             this.Per.Name = "Per";
             this.Per.Size = new System.Drawing.Size(37, 63);
             this.Per.TabIndex = 1;
@@ -90,14 +91,14 @@ namespace juego
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Per);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(Piso);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Play";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Play";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(Piso)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -106,8 +107,6 @@ namespace juego
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Per;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem volverAlMenuToolStripMenuItem;
