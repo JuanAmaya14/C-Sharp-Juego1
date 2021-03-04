@@ -13,10 +13,12 @@ namespace juego
     public partial class Play : Form
     {
 
-        
+        int Puntos = 0;
 
         public Play()
         {
+            
+             
             InitializeComponent();
 
         }
@@ -37,19 +39,17 @@ namespace juego
 
             ///////////////////////////////////////
 
-           
-            if (e.KeyCode == Keys.W)
-            {
-
-                    Per.Location = new Point(Per.Location.X, 207);
-                
-            }
-
-            /*  if (e.KeyData == Keys.W)
+             if (e.KeyData == Keys.W)
               {
                   Per.Location = new Point(Per.Location.X, Per.Location.Y - 10);
 
-              }*/
+              }
+
+            if (e.KeyData == Keys.S)
+            {
+                Per.Location = new Point(Per.Location.X, Per.Location.Y + 10);
+
+            }
 
 
         }
@@ -66,8 +66,8 @@ namespace juego
         {
             Application.Exit();
         }
-       
-      
+
+        
     }
 }
         

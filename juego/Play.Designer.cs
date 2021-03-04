@@ -29,30 +29,18 @@ namespace juego
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.PictureBox Piso;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Play));
             this.Per = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.volverAlMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            Piso = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(Piso)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Piso
-            // 
-            Piso.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Piso.BackgroundImage")));
-            Piso.Location = new System.Drawing.Point(0, 361);
-            Piso.Name = "Piso";
-            Piso.Size = new System.Drawing.Size(801, 93);
-            Piso.TabIndex = 0;
-            Piso.TabStop = false;
             // 
             // Per
             // 
             this.Per.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Per.Location = new System.Drawing.Point(29, 300);
+            this.Per.Location = new System.Drawing.Point(373, 202);
             this.Per.Name = "Per";
             this.Per.Size = new System.Drawing.Size(37, 63);
             this.Per.TabIndex = 1;
@@ -84,21 +72,30 @@ namespace juego
             this.cerrarToolStripMenuItem.Text = "Cerrar";
             this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.cerrarToolStripMenuItem_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(12, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Puntaje: 0";
+            // 
             // Play
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Per);
-            this.Controls.Add(Piso);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Play";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Play";
-            ((System.ComponentModel.ISupportInitialize)(Piso)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -111,5 +108,6 @@ namespace juego
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem volverAlMenuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
