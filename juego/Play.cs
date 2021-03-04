@@ -12,13 +12,13 @@ namespace juego
 {
     public partial class Play : Form
     {
-
+       
         int Puntos = 0;
 
         public Play()
         {
-            
-             
+
+           
             InitializeComponent();
 
         }
@@ -26,7 +26,9 @@ namespace juego
         private void Botones(object sender, KeyEventArgs e)
         {
 
-
+            /////////////////////////////////////////////////////////////////////////////
+            // ------------------------- CONTROLES --------------------------------------
+            /////////////////////////////////////////////////////////////////////////////
             if (e.KeyData == Keys.A)
             {
                 Per.Location = new Point(Per.Location.X - 10, Per.Location.Y);
@@ -50,8 +52,39 @@ namespace juego
                 Per.Location = new Point(Per.Location.X, Per.Location.Y + 10);
 
             }
+            //////////////////////////////////////////////////////////////////////////////////////////
+            //--------------------------------------- PAREDES ----------------------------------------
+            //////////////////////////////////////////////////////////////////////////////////////////
+            label2.Text = ("X:  "+Per.Location.X+" - Y: "+Per.Location.Y);
 
 
+            if (Per.Location.Y <= Pared_Arriba.Location.Y)
+            {
+
+                Per.Location = new Point(Per.Location.X, +379);
+
+            }
+
+            if (Per.Location.Y >= Pared_Abajo.Location.Y)
+            {
+
+                Per.Location = new Point(Per.Location.X, +27);
+
+            }
+
+            if (Per.Location.X >= Pared_Derecha.Location.X)
+            {
+
+                Per.Location = new Point(+9, Per.Location.Y);
+
+            }
+
+            if (Per.Location.X <= Pared_Izquierda.Location.X)
+            {
+
+                Per.Location = new Point(+761, Per.Location.Y);
+
+            }
         }
 
         private void volverAlMenuToolStripMenuItem_Click(object sender, EventArgs e)
