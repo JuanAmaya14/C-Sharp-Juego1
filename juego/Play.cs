@@ -23,11 +23,13 @@ namespace juego
 
         }
 
+      
+
         private void Botones(object sender, KeyEventArgs e)
         {
 
             /////////////////////////////////////////////////////////////////////////////
-            // ------------------------- CONTROLES --------------------------------------
+            // ------------------------- CONTROLES ------------------------------------//
             /////////////////////////////////////////////////////////////////////////////
             if (e.KeyData == Keys.A)
             {
@@ -53,7 +55,7 @@ namespace juego
 
             }
             //////////////////////////////////////////////////////////////////////////////////////////
-            //--------------------------------------- PAREDES ----------------------------------------
+            //--------------------------------------- PAREDES --------------------------------------//
             //////////////////////////////////////////////////////////////////////////////////////////
             label2.Text = ("X:  "+Per.Location.X+" - Y: "+Per.Location.Y);
 
@@ -61,7 +63,7 @@ namespace juego
             if (Per.Location.Y <= Pared_Arriba.Location.Y)
             {
 
-                Per.Location = new Point(Per.Location.X, +379);
+                Per.Location = new Point(Per.Location.X, +379); 
 
             }
 
@@ -83,6 +85,20 @@ namespace juego
             {
 
                 Per.Location = new Point(+761, Per.Location.Y);
+
+            }
+
+            //////////////////////////////////////////////////////////////////////////////////////////
+            //--------------------------------------- GALLETA --------------------------------------//
+            //////////////////////////////////////////////////////////////////////////////////////////
+
+            if(Per.Location.X == Galleta.Location.X && Per.Location.Y == Galleta.Location.Y) 
+            {
+
+                Puntos++;
+               //Galleta.Location = new Point(Galleta.Location.X , Galleta.Location.Y);
+                label1.Text = "Puntaje: "+Puntos;
+                Galleta.Visible = false;
 
             }
         }

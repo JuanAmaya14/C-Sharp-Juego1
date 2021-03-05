@@ -34,7 +34,7 @@ namespace juego
             this.volverAlMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.galleta = new System.Windows.Forms.Button();
+            this.Galleta = new System.Windows.Forms.Button();
             this.Pared_Izquierda = new System.Windows.Forms.PictureBox();
             this.Pared_Abajo = new System.Windows.Forms.PictureBox();
             this.Pared_Derecha = new System.Windows.Forms.PictureBox();
@@ -49,12 +49,13 @@ namespace juego
             // 
             // Per
             // 
-            this.Per.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Per.BackColor = System.Drawing.Color.LimeGreen;
+            this.Per.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Per.Location = new System.Drawing.Point(50, 50);
             this.Per.Name = "Per";
-            this.Per.Size = new System.Drawing.Size(37, 63);
+            this.Per.Size = new System.Drawing.Size(40, 40);
             this.Per.TabIndex = 1;
-            this.Per.UseVisualStyleBackColor = true;
+            this.Per.UseVisualStyleBackColor = false;
             this.Per.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Botones);
             // 
             // menuStrip1
@@ -86,19 +87,20 @@ namespace juego
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(329, 211);
+            this.label1.Location = new System.Drawing.Point(16, 428);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Puntaje: 0";
             // 
-            // galleta
+            // Galleta
             // 
-            this.galleta.Location = new System.Drawing.Point(658, 351);
-            this.galleta.Name = "galleta";
-            this.galleta.Size = new System.Drawing.Size(34, 38);
-            this.galleta.TabIndex = 4;
-            this.galleta.UseVisualStyleBackColor = true;
+            this.Galleta.Location = new System.Drawing.Point(650, 350);
+            this.Galleta.Name = "Galleta";
+            this.Galleta.Size = new System.Drawing.Size(40, 40);
+            this.Galleta.TabIndex = 4;
+            this.Galleta.UseVisualStyleBackColor = true;
+            this.Galleta.Visible = true;
             // 
             // Pared_Izquierda
             // 
@@ -140,7 +142,7 @@ namespace juego
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(448, 83);
+            this.label2.Location = new System.Drawing.Point(142, 428);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 13);
             this.label2.TabIndex = 9;
@@ -157,7 +159,7 @@ namespace juego
             this.Controls.Add(this.Pared_Derecha);
             this.Controls.Add(this.Pared_Abajo);
             this.Controls.Add(this.Pared_Izquierda);
-            this.Controls.Add(this.galleta);
+            this.Controls.Add(this.Galleta);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Per);
             this.Controls.Add(this.menuStrip1);
@@ -183,7 +185,7 @@ namespace juego
         private System.Windows.Forms.ToolStripMenuItem volverAlMenuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button galleta;
+        private System.Windows.Forms.Button Galleta;
         private System.Windows.Forms.PictureBox Pared_Izquierda;
         private System.Windows.Forms.PictureBox Pared_Abajo;
         private System.Windows.Forms.PictureBox Pared_Derecha;
