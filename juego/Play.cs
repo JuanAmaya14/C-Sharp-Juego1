@@ -92,14 +92,24 @@ namespace juego
             //--------------------------------------- GALLETA --------------------------------------//
             //////////////////////////////////////////////////////////////////////////////////////////
 
-            if(Per.Location.X == Galleta.Location.X && Per.Location.Y == Galleta.Location.Y) 
+            if(Per.Location.X > Galleta.Location.X && Per.Location.Y > Galleta.Location.Y &&
+               Per.Location.X <= Galleta.Location.X +40 && Per.Location.Y <= Galleta.Location.Y +40) 
             {
+                Random rnd = new Random();
 
+                int X = rnd.Next(1,100);
+                int Y = rnd.Next(1,100);
+                
+
+                
                 Puntos++;
-               //Galleta.Location = new Point(Galleta.Location.X , Galleta.Location.Y);
-                label1.Text = "Puntaje: "+Puntos;
-                Galleta.Visible = false;
+               Galleta.Location = new Point(X,Y);
 
+                label1.Text = "Puntaje: "+Puntos;
+                
+
+
+                
             }
         }
 
