@@ -46,10 +46,26 @@ namespace juego
 
         private void B_Jugar_Click(object sender, EventArgs e)
         {
-            Form Pl = new Play();
-            Pl.Show();
+            DialogResult Opciones = MessageBox.Show("¿Quieres jugar con mouse?", "Modo", MessageBoxButtons.YesNo);
 
-            this.Hide();
+            switch (Opciones)
+            {
+                case DialogResult.Yes:
+                    Form Mo = new P_mouse();
+
+                    Mo.Show();
+                    Hide();
+                    break;
+
+                case DialogResult.No:
+                    Form PL = new Play();
+
+                    PL.Show();
+                    Hide();
+
+                    break;
+            }
+
             
         }
 

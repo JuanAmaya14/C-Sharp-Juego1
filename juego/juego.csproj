@@ -58,6 +58,12 @@
     <Compile Include="Como_Jugar.Designer.cs">
       <DependentUpon>Como_Jugar.cs</DependentUpon>
     </Compile>
+    <Compile Include="P_mouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P_mouse.Designer.cs">
+      <DependentUpon>P_mouse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Play.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Como_Jugar.resx">
       <DependentUpon>Como_Jugar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P_mouse.resx">
+      <DependentUpon>P_mouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

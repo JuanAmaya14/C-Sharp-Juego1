@@ -23,3 +23,4 @@ C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.csproj.Generate
 C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.csproj.CoreCompileInputs.cache
 C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.exe
 C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.pdb
+C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.P_mouse.resources

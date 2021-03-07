@@ -97,11 +97,11 @@ namespace juego
             {
                 Random rnd = new Random();
 
-                int X = rnd.Next(1,100);
-                int Y = rnd.Next(1,100);
-                
+                int X = rnd.Next(27, 700);
+                int Y = rnd.Next(27, 410);
 
-                
+
+
                 Puntos++;
                Galleta.Location = new Point(X,Y);
 
