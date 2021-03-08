@@ -1,7 +1,7 @@
 ﻿
 namespace juego
 {
-    partial class P_mouse
+    partial class Modos
     {
         /// <summary>
         /// Required designer variable.
@@ -29,22 +29,52 @@ namespace juego
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
+            this.Mouse = new System.Windows.Forms.Button();
+            this.Teclado = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.volverAlMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Punto = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(12, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(276, 33);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "¿Que modo elijes?";
+            // 
+            // Mouse
+            // 
+            this.Mouse.Location = new System.Drawing.Point(18, 97);
+            this.Mouse.Name = "Mouse";
+            this.Mouse.Size = new System.Drawing.Size(108, 47);
+            this.Mouse.TabIndex = 1;
+            this.Mouse.Text = "Mouse";
+            this.Mouse.UseVisualStyleBackColor = true;
+            this.Mouse.Click += new System.EventHandler(this.Mouse_Click);
+            // 
+            // Teclado
+            // 
+            this.Teclado.Location = new System.Drawing.Point(162, 97);
+            this.Teclado.Name = "Teclado";
+            this.Teclado.Size = new System.Drawing.Size(108, 47);
+            this.Teclado.TabIndex = 2;
+            this.Teclado.Text = "Teclado";
+            this.Teclado.UseVisualStyleBackColor = true;
+            this.Teclado.Click += new System.EventHandler(this.Teclado_Click);
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.volverAlMenuToolStripMenuItem,
-            this.cerrarToolStripMenuItem});
+            this.volverAlMenuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(294, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -55,47 +85,20 @@ namespace juego
             this.volverAlMenuToolStripMenuItem.Text = "Volver al menu";
             this.volverAlMenuToolStripMenuItem.Click += new System.EventHandler(this.volverAlMenuToolStripMenuItem_Click);
             // 
-            // cerrarToolStripMenuItem
-            // 
-            this.cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
-            this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
-            this.cerrarToolStripMenuItem.Text = "Cerrar";
-            this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.cerrarToolStripMenuItem_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(12, 428);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Puntaje:";
-            // 
-            // Punto
-            // 
-            this.Punto.BackColor = System.Drawing.Color.DarkOrange;
-            this.Punto.Location = new System.Drawing.Point(375, 219);
-            this.Punto.Name = "Punto";
-            this.Punto.Size = new System.Drawing.Size(43, 42);
-            this.Punto.TabIndex = 5;
-            this.Punto.UseVisualStyleBackColor = false;
-            this.Punto.Click += new System.EventHandler(this.Punto_Click);
-            // 
-            // P_mouse
+            // Modos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Punto);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(294, 174);
+            this.Controls.Add(this.Teclado);
+            this.Controls.Add(this.Mouse);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MaximizeBox = false;
-            this.Name = "P_mouse";
+            this.Name = "Modos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Mouse";
+            this.Text = "Modos";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -105,10 +108,10 @@ namespace juego
 
         #endregion
 
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Mouse;
+        private System.Windows.Forms.Button Teclado;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem volverAlMenuToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Punto;
     }
 }

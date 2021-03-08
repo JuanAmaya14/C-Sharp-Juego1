@@ -24,3 +24,4 @@ C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.csproj.CoreComp
 C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.exe
 C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.pdb
 C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.P_mouse.resources
+C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.Modos.resources

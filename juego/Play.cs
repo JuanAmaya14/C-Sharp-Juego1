@@ -107,10 +107,9 @@ namespace juego
 
                 label1.Text = "Puntaje: "+Puntos;
                 
-
-
-                
             }
+
+
         }
 
         private void volverAlMenuToolStripMenuItem_Click(object sender, EventArgs e)
@@ -126,7 +125,22 @@ namespace juego
             Application.Exit();
         }
 
-        
+        private void Play_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ////////////////////////////////////////////////////////////////////////////////////////////
+            ////--------------------------------------- Reset --------------------------------------////
+            ////////////////////////////////////////////////////////////////////////////////////////////
+
+            Puntos = 0;
+
+
+
+        }
     }
 }
         

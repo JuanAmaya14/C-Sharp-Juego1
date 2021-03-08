@@ -29,6 +29,7 @@ namespace juego
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Play));
             this.Per = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.volverAlMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -95,12 +96,12 @@ namespace juego
             // 
             // Galleta
             // 
+            this.Galleta.Image = ((System.Drawing.Image)(resources.GetObject("Galleta.Image")));
             this.Galleta.Location = new System.Drawing.Point(650, 350);
             this.Galleta.Name = "Galleta";
             this.Galleta.Size = new System.Drawing.Size(40, 40);
             this.Galleta.TabIndex = 4;
             this.Galleta.UseVisualStyleBackColor = true;
-            this.Galleta.Visible = true;
             // 
             // Pared_Izquierda
             // 
@@ -168,6 +169,7 @@ namespace juego
             this.Name = "Play";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
+            this.Load += new System.EventHandler(this.Play_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pared_Izquierda)).EndInit();
