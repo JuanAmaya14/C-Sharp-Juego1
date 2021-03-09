@@ -86,6 +86,8 @@ namespace juego
             this.Controls.Add(this.B_Acerca_De);
             this.Controls.Add(this.B_Jugar);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(816, 489);
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";

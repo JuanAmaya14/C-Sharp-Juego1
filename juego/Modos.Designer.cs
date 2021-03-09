@@ -96,6 +96,8 @@ namespace juego
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(310, 213);
+            this.MinimumSize = new System.Drawing.Size(310, 213);
             this.Name = "Modos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modos";

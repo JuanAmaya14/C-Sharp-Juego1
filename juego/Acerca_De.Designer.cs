@@ -50,6 +50,8 @@ namespace juego
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.A_Acerca_de);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(816, 489);
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "Acerca_De";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Acerca De";

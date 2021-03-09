@@ -25,5 +25,10 @@ namespace juego
 
             this.Hide();
         }
+
+        private void Como_Jugar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
