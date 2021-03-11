@@ -12,18 +12,18 @@ namespace juego
 {
     public partial class Play : Form
     {
-       
+
         int Puntos = 0;
 
         public Play()
         {
 
-           
+
             InitializeComponent();
 
         }
 
-      
+
 
         private void Botones(object sender, KeyEventArgs e)
         {
@@ -43,11 +43,11 @@ namespace juego
 
             ///////////////////////////////////////
 
-             if (e.KeyData == Keys.W)
-              {
-                  Per.Location = new Point(Per.Location.X, Per.Location.Y - 10);
+            if (e.KeyData == Keys.W)
+            {
+                Per.Location = new Point(Per.Location.X, Per.Location.Y - 10);
 
-              }
+            }
 
             if (e.KeyData == Keys.S)
             {
@@ -57,13 +57,13 @@ namespace juego
             //////////////////////////////////////////////////////////////////////////////////////////
             //--------------------------------------- PAREDES --------------------------------------//
             //////////////////////////////////////////////////////////////////////////////////////////
-            label2.Text = ("X:  "+Per.Location.X+" - Y: "+Per.Location.Y);
+            label2.Text = ("X:  " + Per.Location.X + " - Y: " + Per.Location.Y);
 
 
             if (Per.Location.Y <= Pared_Arriba.Location.Y)
             {
 
-                Per.Location = new Point(Per.Location.X, +379); 
+                Per.Location = new Point(Per.Location.X, +379);
 
             }
 
@@ -92,8 +92,8 @@ namespace juego
             //--------------------------------------- GALLETA --------------------------------------//
             //////////////////////////////////////////////////////////////////////////////////////////
 
-            if(Per.Location.X > Galleta.Location.X && Per.Location.Y > Galleta.Location.Y &&
-               Per.Location.X <= Galleta.Location.X +40 && Per.Location.Y <= Galleta.Location.Y +40) 
+            if (Per.Location.X > Galleta.Location.X && Per.Location.Y > Galleta.Location.Y &&
+               Per.Location.X <= Galleta.Location.X + 40 && Per.Location.Y <= Galleta.Location.Y + 40)
             {
                 Random rnd = new Random();
 
@@ -103,10 +103,10 @@ namespace juego
 
 
                 Puntos++;
-               Galleta.Location = new Point(X,Y);
+                Galleta.Location = new Point(X, Y);
 
-                label1.Text = "Puntaje: "+Puntos;
-                
+                label1.Text = "Puntaje: " + Puntos;
+
             }
 
 
@@ -143,5 +143,5 @@ namespace juego
         }
     }
 }
-        
+
 

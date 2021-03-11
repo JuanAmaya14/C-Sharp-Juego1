@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace juego
 {
-    public partial class Como_Jugar : Form
+    public partial class Modo_Teclado : Form
     {
-        public Como_Jugar()
+        public Modo_Teclado()
         {
             InitializeComponent();
         }
@@ -29,6 +29,14 @@ namespace juego
         private void Como_Jugar_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form CM = new Como_Mouse();
+            CM.Show();
+
+            this.Hide();
         }
     }
 }

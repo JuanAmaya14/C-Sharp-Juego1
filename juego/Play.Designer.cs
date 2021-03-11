@@ -164,6 +164,7 @@ namespace juego
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Per);
             this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(816, 489);

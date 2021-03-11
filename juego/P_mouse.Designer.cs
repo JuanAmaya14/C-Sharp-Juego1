@@ -92,12 +92,14 @@ namespace juego
             this.Controls.Add(this.Punto);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(816, 489);
             this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "P_mouse";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mouse";
+            this.Load += new System.EventHandler(this.P_mouse_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

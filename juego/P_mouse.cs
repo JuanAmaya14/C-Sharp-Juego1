@@ -12,7 +12,6 @@ namespace juego
 {
     public partial class P_mouse : Form
     {
-
         int Puntos = 0;
 
         public P_mouse()
@@ -39,7 +38,6 @@ namespace juego
         {
             Random rnd = new Random();
 
-       
 
             int X = rnd.Next(27, 700);
             int Y = rnd.Next(27, 410);
@@ -50,14 +48,13 @@ namespace juego
             label1.Text = "Puntaje: " + Puntos;
         }
 
-        private void resetToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ////////////////////////////////////////////////////////////////////////////////////////////
-            ////--------------------------------------- Reset --------------------------------------////
-            ////////////////////////////////////////////////////////////////////////////////////////////
 
-            int Puntos = 0;
+        private void P_mouse_Load(object sender, EventArgs e)
+        {
+
         }
+
+
     }
 }
 

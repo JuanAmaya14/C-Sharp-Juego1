@@ -37,7 +37,7 @@ namespace juego
 
         private void B_como_jugar_Click(object sender, EventArgs e)
         {
-            Form CJ = new Como_Jugar();
+            Form CJ = new Modo_Teclado();
             Form ME = new Menu();
 
             CJ.Show();

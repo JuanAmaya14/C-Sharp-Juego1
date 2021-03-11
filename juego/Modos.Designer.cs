@@ -29,6 +29,7 @@ namespace juego
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Modos));
             this.label1 = new System.Windows.Forms.Label();
             this.Mouse = new System.Windows.Forms.Button();
             this.Teclado = new System.Windows.Forms.Button();
@@ -50,21 +51,21 @@ namespace juego
             // 
             // Mouse
             // 
+            this.Mouse.Image = ((System.Drawing.Image)(resources.GetObject("Mouse.Image")));
             this.Mouse.Location = new System.Drawing.Point(18, 97);
             this.Mouse.Name = "Mouse";
             this.Mouse.Size = new System.Drawing.Size(108, 47);
             this.Mouse.TabIndex = 1;
-            this.Mouse.Text = "Mouse";
             this.Mouse.UseVisualStyleBackColor = true;
             this.Mouse.Click += new System.EventHandler(this.Mouse_Click);
             // 
             // Teclado
             // 
+            this.Teclado.Image = ((System.Drawing.Image)(resources.GetObject("Teclado.Image")));
             this.Teclado.Location = new System.Drawing.Point(162, 97);
             this.Teclado.Name = "Teclado";
             this.Teclado.Size = new System.Drawing.Size(108, 47);
             this.Teclado.TabIndex = 2;
-            this.Teclado.Text = "Teclado";
             this.Teclado.UseVisualStyleBackColor = true;
             this.Teclado.Click += new System.EventHandler(this.Teclado_Click);
             // 

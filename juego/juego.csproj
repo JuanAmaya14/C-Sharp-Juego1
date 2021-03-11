@@ -52,11 +52,17 @@
     <Compile Include="Acerca_De.Designer.cs">
       <DependentUpon>Acerca_De.cs</DependentUpon>
     </Compile>
-    <Compile Include="Como_Jugar.cs">
+    <Compile Include="Como_Teclado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Como_Jugar.Designer.cs">
-      <DependentUpon>Como_Jugar.cs</DependentUpon>
+    <Compile Include="Como_Teclado.Designer.cs">
+      <DependentUpon>Como_Teclado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Como_Mouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Como_Mouse.Designer.cs">
+      <DependentUpon>Como_Mouse.cs</DependentUpon>
     </Compile>
     <Compile Include="Modos.cs">
       <SubType>Form</SubType>
@@ -87,8 +93,11 @@
     <EmbeddedResource Include="Acerca_De.resx">
       <DependentUpon>Acerca_De.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Como_Jugar.resx">
-      <DependentUpon>Como_Jugar.cs</DependentUpon>
+    <EmbeddedResource Include="Como_Teclado.resx">
+      <DependentUpon>Como_Teclado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Como_Mouse.resx">
+      <DependentUpon>Como_Mouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modos.resx">
       <DependentUpon>Modos.cs</DependentUpon>
