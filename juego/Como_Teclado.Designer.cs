@@ -164,6 +164,7 @@ namespace juego
             this.Controls.Add(this.wasd);
             this.Controls.Add(this.modo1);
             this.Controls.Add(this.A_ins);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(816, 489);
             this.MinimumSize = new System.Drawing.Size(816, 489);

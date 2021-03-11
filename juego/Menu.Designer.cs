@@ -90,6 +90,7 @@ namespace juego
             this.Controls.Add(this.B_como_jugar);
             this.Controls.Add(this.B_Acerca_De);
             this.Controls.Add(this.B_Jugar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(816, 489);
             this.MinimumSize = new System.Drawing.Size(816, 489);
