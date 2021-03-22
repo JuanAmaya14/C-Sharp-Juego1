@@ -26,3 +26,19 @@ C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.P_mouse.resourc
 C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.Modos.resources
 C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.Modo_Teclado.resources
 C:\Users\JuanK\Desktop\curso C#\juego_C#_1\juego\obj\Debug\juego.Como_Mouse.resources
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\bin\Debug\juego.exe.config
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\bin\Debug\juego.exe
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\bin\Debug\juego.pdb
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.csprojAssemblyReference.cache
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.Acerca_De.resources
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.Modo_Teclado.resources
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.Como_Mouse.resources
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.Modos.resources
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.P_mouse.resources
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.Menu.resources
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.Play.resources
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.Properties.Resources.resources
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.csproj.GenerateResource.cache
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.csproj.CoreCompileInputs.cache
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.exe
+C:\Users\JuanK\Desktop\C-Sharp-Juego1-main\juego\obj\Debug\juego.pdb
