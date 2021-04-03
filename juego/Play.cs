@@ -159,37 +159,37 @@ namespace juego
 
         private void hereNowToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            HereNow.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1-main/juego/Audio/RJD2/Here_Now.wav";
+            HereNow.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/Here_Now.wav";
             HereNow.Play();
         }
 
         private void aBeautifulMineToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Mine.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1-main/juego/Audio/RJD2/Mine.wav";
+            Mine.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/RJD2/Mine.wav";
             Mine.Play();
         }
 
         private void beyondTheBeyondToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            BTB.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1-main/juego/Audio/RJD2/BTB.wav";
+            BTB.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/BTB.wav";
             BTB.Play();
         }
 
         private void newRadiusToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Radius.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1-main/juego/Audio/RJD2/New-Radius.wav";
+            Radius.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/New-Radius.wav";
             Radius.Play();
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            Cuba.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1-main/juego/Audio/RJD2/rjd2-1976.wav";
+            Cuba.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/rjd2-1976.wav";
             Cuba.Play();
         }
 
         private void juneInstrumentalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            June_Instru.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1-main/juego/Audio/RJD2/june-instrumental.wav";
+            June_Instru.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/june-instrumental.wav";
             June_Instru.Play();
         }
 

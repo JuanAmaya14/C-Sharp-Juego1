@@ -84,7 +84,7 @@ namespace juego
 
         private void hereNowToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            HereNow.SoundLocation = "C:/Users/JuanK/Desktop/seguro/juego/Audio/RJD2/Here_Now.wav";
+            HereNow.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/Here_Now.wav";
             HereNow.Play();
 
         }
@@ -93,7 +93,7 @@ namespace juego
 
         private void aBeautifulMineToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Mine.SoundLocation = "C:/Users/JuanK/Desktop/seguro/juego/Audio/RJD2/Mine.wav";
+            Mine.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/Mine.wav";
             Mine.Play();
 
 
@@ -101,14 +101,14 @@ namespace juego
 
         private void beyondTheBeyondToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            BTB.SoundLocation = "C:/Users/JuanK/Desktop/seguro/juego/Audio/RJD2/BTB.wav";
+            BTB.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/BTB.wav";
             BTB.Play();
 
         }
 
         private void newRadiusToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Radius.SoundLocation = "C:/Users/JuanK/Desktop/seguro/juego/Audio/RJD2/New-Radius.wav";
+            Radius.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/New-Radius.wav";
             Radius.Play();
 
         }
@@ -116,7 +116,7 @@ namespace juego
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
 
-            Cuba.SoundLocation = "C:/Users/JuanK/Desktop/seguro/juego/Audio/RJD2/rjd2-1976.wav";
+            Cuba.SoundLocation = "C:/Users/JuanK/Desktop/C-Sharp-Juego1/juego/Audio/RJD2/rjd2-1976.wav";
             Cuba.Play();
 
         }
